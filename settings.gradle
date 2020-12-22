@@ -1,0 +1,3 @@
+include ':allen'
+include ':app'
+rootProject.name = "GladlePlugin"
