@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(this).load(Uri.parse("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2432834852,1155554581&fm=26&gp=0.jpg")).into(imageView);
 
         TraceCompat.endSection();
+        Log.d(TAG, "onCreate: "+ System.currentTimeMillis());
     }
 
     @AllenLog
